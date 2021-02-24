@@ -1,0 +1,27 @@
+{
+  "name": "storybook-webpack-5",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Jean Leonço",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "resolutions": {
+    "webpack": "5.24.2"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@storybook/addon-actions": "6.2.0-alpha.30",
+    "@storybook/addon-essentials": "6.2.0-alpha.30",
+    "@storybook/addon-links": "6.2.0-alpha.30",
+    "@storybook/builder-webpack5": "^6.2.0-alpha.30",
+    "@storybook/react": "6.2.0-alpha.30",
+    "assert": "^2.0.0",
+    "babel-loader": "^8.2.2"
+  }
+}
